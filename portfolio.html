@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shameer | Portfolio</title>
+
+  <!-- ===== Internal CSS ===== -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    section {
+      background-color: white;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #222;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .project {
+      background-color: #eaeaea;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      background-color: #0066cc;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #004999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Shameer</h1>
+    <p>Web Developer | Student</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is Shameer. I am a student and learning web development.
+      This is my personal portfolio website made using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A simple portfolio website hosted on GitHub Pages.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ahmedshameer990@gmail.com">ahmedshameer990@gmail.com</a></p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Shameer | All Rights Reserved</p>
+  </footer>
+
+  <!-- ===== Internal JavaScript ===== -->
+  <script>
+    function showMessage() {
+      alert("Thank you for visiting Shameer's Portfolio!");
+    }
+  </script>
+
+</body>
+</html>
